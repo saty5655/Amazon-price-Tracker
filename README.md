@@ -5,10 +5,10 @@ The Amazon Price Tracker script automates the process of monitoring the price of
 
 The process follows these steps:
 
-Start
-Fetch Amazon Product Page (Using ScraperAPI to bypass restrictions)
-Extract the Price (Using BeautifulSoup)
-Check if Price is Below Target
-Yes → Send Email Notification
-No → Wait and Retry After an Interval
+Start->
+Fetch Amazon Product Page (Using ScraperAPI to bypass restrictions)->
+Extract the Price (Using BeautifulSoup)->
+Check if Price is Below Target->
+Yes → Send Email Notification or
+No → Wait and Retry After an Interval->
 Repeat Until Price Drop is Dete
