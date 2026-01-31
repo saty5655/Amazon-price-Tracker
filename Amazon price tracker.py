@@ -10,9 +10,9 @@ url = 'https://www.amazon.in/s?k=digital+camera&crid=WD83YZPOLJXU&sprefix=Digita
 target_price = 500.00
 
 # Email settings
-sender_email = 'satyamjha1704@gmail.com'
-receiver_email = 'recipient-email@gmail.com'
-email_password = 'Sachin@12345'
+sender_email = '**************.com'
+receiver_email = '***********.com'
+email_password = '********'
 
 def get_amazon_price(url):
     headers = {
@@ -58,3 +58,4 @@ def track_amazon_price(url, target_price):
 
 if __name__ == '__main__':
     track_amazon_price(url, target_price)
+
